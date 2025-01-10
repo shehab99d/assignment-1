@@ -2,16 +2,22 @@
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
-  }
-  .fira-sans-thin{
-    background-color: #F1F1F3;
-  }
-
+}
   .btn-primary{
       padding: 15px 30px;
       border-radius: 8px;
-      color: #006A50;
-  }
+     
+}
+.fira-sans-thin{
+    background-color:#faeaea;
+}
+.dtn-2{
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 17px 49px;
+    border-radius: 8px;
+    border: none;
+}
 
 /* Nav styles */
 nav{
@@ -34,4 +40,31 @@ nav ul{
 nav ul li {
     list-style: none;
     
+}
+
+/* Banner styles */
+.banner{
+  display: flex;
+ justify-content: space-around;
+ background-color: #C6E4D6;
+ margin: 10px 160px;
+ 
+ border-radius: 24px;
+ }
+.banner-content{
+    padding-top: 117px;
+}
+.banner-title{
+    color: #0E0E0E;
+    font-size: 20px;
+    opacity: 5px;
+}
+.banner-description{
+    font-weight: bold;
+    font-size: 56px;
+  
+}
+.banner-profile{
+       width: 474.03px;
+       height: 400px;
 }
