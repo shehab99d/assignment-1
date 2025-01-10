@@ -6,6 +6,8 @@
   .btn-primary{
       padding: 15px 30px;
       border-radius: 8px;
+      cursor: pointer;
+    
      
 }
 .fira-sans-thin{
@@ -17,6 +19,7 @@
     padding: 17px 49px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 /* Nav styles */
@@ -67,4 +70,94 @@ nav ul li {
 .banner-profile{
        width: 474.03px;
        height: 400px;
+}
+
+/* vision styles */
+
+.vision{
+    padding-top: 120px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.section{
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    padding-bottom: 32px;
+}
+
+/* vision's styles */
+.vision-container{
+    display: flex;
+    gap: 24px;
+}
+
+
+/* skills styles */
+
+.skill-1{
+    background-color:rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding-top: 33px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+.skill-2{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px 32px;
+}
+.skill-3{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px 32px;
+}
+
+.btn-2nd{
+    color: #FFFFFF;
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-3rd{
+    color: #FFFFFF;
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-4th{
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;             
+    background-color: #2980b9; 
+   
+  
+}
+
+
+/* dr yunus */
+
+.dr-yunus{
+    padding-top: 32px;
+    margin: 0 160px;
+    background-color: white;
+    margin-top: 32px;
+    padding: 24px 48px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 24px;
+    
+    
 }
