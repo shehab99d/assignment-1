@@ -158,6 +158,50 @@ nav ul li {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 25px 24px;
-    
-    
 }
+
+/* Satellite styles */
+
+.satellite{
+     margin: 160px 160px;
+}
+.s-1{
+    font-size:40px;
+    font-weight: bold;
+}
+.s-2{
+    font-size: 16px;
+
+}
+.satellite-2{
+      height: 44vh;
+      background-color: #FFFFFF;
+      border-radius: 24px;
+
+}
+.light{
+    display: flex;
+    
+
+}
+.main-point{
+    padding:48px 48px;
+
+
+}
+.n-1{
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 26px;
+}
+.btn-5{
+    margin-top: 32px;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+
+}
+
