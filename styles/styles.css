@@ -13,6 +13,7 @@
 }
 .fira-sans-regular{
     background-color:#faeaea;
+
 }
 .dtn-2{
     color: #FFFFFF;
@@ -207,6 +208,7 @@ height: 60vh;
 .main-point{
     padding:48px 48px;
     box-sizing: 24px;
+    border-radius: 24px;
 
 }
 .n-1{
@@ -290,6 +292,9 @@ height: 60vh;
     cursor: pointer;
     
 }
+.main-point{
+    border-radius: 24px;
+}
 /* Form styles */
 .form{
 
@@ -314,4 +319,89 @@ height: 60vh;
    color: #FFFFFF;
    border: none;
    cursor:pointer;
+}
+
+/* Styles of description */
+.description{
+    height: 50vh;
+    /* border: 1px solid black; */
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 80px;
+}
+.d-11{
+   
+}
+.d-10{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+/* 2nd last */
+.description-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    
+}
+.email-1{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 403px;
+    font-size: 16px;
+    opacity: 0.9;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+.final-button{
+    font-weight: 400px;
+    font-size: 18px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    cursor: pointer;
+}
+/* last */
+.last{
+    height: 35vh;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+   
+}
+/* Footer'a styles */
+.last{
+    text-align: center;
+}
+.bangladesh{
+   /* padding-top: 50px; */
+   font-size: 32px;
+   font-weight: bold;
+}
+.finish{
+    padding-top: 50px;
+}
+.hr-style{
+   margin-top: 32px;
+   margin-left: 239px;
+   margin-right: 239px;
+   color:#e7e5e5;
+   opacity: 30%;
+}
+.done{
+    padding-top: 32px;
+    justify-content: space-between;
+}
+.facebook{
+     padding-right: 20px;
+}
+.instagram{
+    padding-right: 20px;
+}
+.twitter{
+
 }
