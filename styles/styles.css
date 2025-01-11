@@ -1,8 +1,9 @@
-.fira-sans-thin {
+.fira-sans-regular {
     font-family: "Fira Sans", serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
-}
+  }
+  
   .btn-primary{
       padding: 15px 30px;
       border-radius: 8px;
@@ -10,7 +11,7 @@
     
      
 }
-.fira-sans-thin{
+.fira-sans-regular{
     background-color:#faeaea;
 }
 .dtn-2{
@@ -44,9 +45,17 @@ nav ul li {
     list-style: none;
     
 }
+.png{
+    border-radius:24px;
+    width: 408px;
+    height: 306px;
+    margin-right: 70px;
+    
+}
 
 /* Banner styles */
 .banner{
+height: 60vh;
   display: flex;
  justify-content: space-around;
  background-color: #C6E4D6;
@@ -55,7 +64,9 @@ nav ul li {
  border-radius: 24px;
  }
 .banner-content{
-    padding-top: 117px;
+    padding-top: 60px;
+    padding-bottom: 197px;
+    padding-left: 60px;
 }
 .banner-title{
     color: #0E0E0E;
@@ -70,6 +81,9 @@ nav ul li {
 .banner-profile{
        width: 474.03px;
        height: 400px;
+       padding-top: 80px;
+       padding-bottom: 80px;
+       padding-right: 60px;
 }
 
 /* vision styles */
@@ -177,7 +191,13 @@ nav ul li {
       height: 44vh;
       background-color: #FFFFFF;
       border-radius: 24px;
-
+      margin-bottom: 24px;
+}
+.satellite-3{
+    height: 44vh;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+  
 }
 .light{
     display: flex;
@@ -186,7 +206,7 @@ nav ul li {
 }
 .main-point{
     padding:48px 48px;
-
+    box-sizing: 24px;
 
 }
 .n-1{
@@ -205,3 +225,93 @@ nav ul li {
 
 }
 
+/* Styles of donate */
+.donate{
+  margin-top: 80px;
+  pad: 0px 160px;
+  height: 55vh;
+}
+.dnt-1{
+   font-weight: bold; 
+   font-size: 40px;
+   text-align: center;
+}
+.dnt-2{
+    font-size: 16px;
+    padding: 0px 248px;
+    margin-bottom: 32px;
+}
+.dnt-btn-1{
+   
+   justify-content: space-between;
+   padding: 0px 264px;
+   border: none;
+   display: flex;
+   margin-bottom: 32px;
+   
+}
+
+.dtn-1{
+   font-size: 40px;
+   font-weight: bold;
+  padding: 40px 40px;
+  border-radius: 16px;
+  
+  padding-right: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+.dtn-f{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px 40px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #C6E4D6;
+}
+.dtn-3{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.dtn-4{
+    font-size: 40px;
+    font-weight: bold;
+    padding:40px 40px;
+    border-radius: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    
+}
+/* Form styles */
+.form{
+
+}
+.form-sheet{
+    font-size: 20px;
+    padding: 20px 422px;
+    border: none;
+   align-items: center;
+   margin-left: 240px;
+}
+.done-button{
+    margin-top: 36px;
+    align-items: center;
+    text-align: center;
+    
+}
+.btn-all{
+   padding: 17px 34px;
+   border-radius: 8px;
+   background-color: #006A50;
+   color: #FFFFFF;
+   border: none;
+   cursor:pointer;
+}
